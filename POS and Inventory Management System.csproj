@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{556B6AD8-8757-4965-9BC7-CF3018D08444}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>POS_and_Inventory_Management_System</RootNamespace>
+    <AssemblyName>POS and Inventory Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow">
+      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.38\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN\frm_AddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\frm_AddCategory.Designer.cs">
+      <DependentUpon>frm_AddCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\frm_ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\frm_ChangePassword.Designer.cs">
+      <DependentUpon>frm_ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\frm_mainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\frm_mainAdmin.Designer.cs">
+      <DependentUpon>frm_mainAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\frm_ManageProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\frm_ManageProduct.Designer.cs">
+      <DependentUpon>frm_ManageProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\frm_ManageStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\frm_ManageStock.Designer.cs">
+      <DependentUpon>frm_ManageStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\frm_ManageUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\frm_ManageUser.Designer.cs">
+      <DependentUpon>frm_ManageUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\frm_ProductEnteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\frm_ProductEnteryForm.Designer.cs">
+      <DependentUpon>frm_ProductEnteryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CASHIER\frm_Discount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CASHIER\frm_Discount.Designer.cs">
+      <DependentUpon>frm_Discount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CASHIER\frm_mainCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CASHIER\frm_mainCashier.Designer.cs">
+      <DependentUpon>frm_mainCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CASHIER\frm_PrintReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CASHIER\frm_PrintReceipt.Designer.cs">
+      <DependentUpon>frm_PrintReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PrintSalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PrintSalesReport.Designer.cs">
+      <DependentUpon>frm_PrintSalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CASHIER\frm_SearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CASHIER\frm_SearchProduct.Designer.cs">
+      <DependentUpon>frm_SearchProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\frm_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\frm_Dashboard.Designer.cs">
+      <DependentUpon>frm_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SalesReport.Designer.cs">
+      <DependentUpon>frm_SalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dbConnection.cs" />
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ADMIN\frm_AddCategory.resx">
+      <DependentUpon>frm_AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\frm_ChangePassword.resx">
+      <DependentUpon>frm_ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\frm_mainAdmin.resx">
+      <DependentUpon>frm_mainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\frm_ManageProduct.resx">
+      <DependentUpon>frm_ManageProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\frm_ManageStock.resx">
+      <DependentUpon>frm_ManageStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\frm_ManageUser.resx">
+      <DependentUpon>frm_ManageUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\frm_ProductEnteryForm.resx">
+      <DependentUpon>frm_ProductEnteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIER\frm_Discount.resx">
+      <DependentUpon>frm_Discount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIER\frm_mainCashier.resx">
+      <DependentUpon>frm_mainCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIER\frm_PrintReceipt.resx">
+      <DependentUpon>frm_PrintReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PrintSalesReport.resx">
+      <DependentUpon>frm_PrintSalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIER\frm_SearchProduct.resx">
+      <DependentUpon>frm_SearchProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIER\rptReceipt.rdlc" />
+    <EmbeddedResource Include="ADMIN\frm_Dashboard.resx">
+      <DependentUpon>frm_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SalesReport.resx">
+      <DependentUpon>frm_SalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rptSoldReport.rdlc" />
+    <None Include="DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-button-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

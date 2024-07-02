@@ -1,0 +1,26 @@
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS and Inventory Management System.csprojResolveAssemblyReference.cache
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.ADMIN.frm_AddCategory.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.ADMIN.frm_ChangePassword.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.ADMIN.frm_mainAdmin.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.ADMIN.frm_ManageProduct.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.ADMIN.frm_ManageStock.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.ADMIN.frm_ManageUser.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.ADMIN.frm_ProductEnteryForm.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.CASHIER.frm_Discount.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.CASHIER.frm_mainCashier.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.CASHIER.frm_PrintReceipt.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.CASHIER.frm_PrintSalesReport.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.CASHIER.frm_SearchProduct.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.CASHIER.frm_SalesReport.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.frm_login.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.Properties.Resources.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS and Inventory Management System.csproj.GenerateResource.Cache
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\RdlCompile.cache
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\RdlCompile.compiled
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\bin\Debug\POS and Inventory Management System.exe.config
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\bin\Debug\POS and Inventory Management System.exe
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\bin\Debug\POS and Inventory Management System.pdb
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS and Inventory Management System.exe
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS and Inventory Management System.pdb
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\obj\Debug\POS_and_Inventory_Management_System.frm_Dashboard.resources
+C:\Users\nyanu\onedrive\documents\visual studio 2013\Projects\POS and Inventory Management System\POS and Inventory Management System\bin\Debug\Tulpep.NotificationWindow.dll
